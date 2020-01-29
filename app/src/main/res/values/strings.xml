@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">descarga</string>
+    <string name="como_llegar">Como llegar!</string>
+    <string name="informaci_n">Información</string>
+    <string name="recomendado">recomendado</string>
+    <string name="leyenda">leyenda</string>
+    <string-array name="tipo">
+        <item>Monumento</item>
+        <item>Mercado</item>
+    </string-array>
+</resources>
