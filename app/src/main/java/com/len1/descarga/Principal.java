@@ -11,7 +11,7 @@ import android.widget.ImageView;
 public class Principal extends AppCompatActivity implements View.OnClickListener {
 
     private Button btMonu;
-    private Button btMerca;
+
     private Button btDiario;
 
 
@@ -26,9 +26,8 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
         btMonu = findViewById(R.id.btPMonu);
         btMonu.setTag(1);
         btMonu.setOnClickListener(this);
-        btMerca = findViewById(R.id.btPMerca);
-        btMerca.setTag(2);
-        btMerca.setOnClickListener(this);
+
+
         btDiario = findViewById(R.id.btDiario);
         btDiario.setTag(3);
         btDiario.setOnClickListener(this);
